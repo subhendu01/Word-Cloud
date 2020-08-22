@@ -25,7 +25,3 @@
    5. **collocations:** Set this to False to ensure that the word cloud doesn’t appear as if it contains any duplicate words. Otherwise, you may see ‘web’, ‘scraping’ and ‘web scraping’ as a collocation in the word cloud, giving an impression that words have been duplicated.
    6. **stopwords:** Stopwords are common words which provide little to no value to the meaning of the text. ‘We’, ‘are’ and ‘the’ are examples of stopwords. I have explained stopwords in more detail here (scroll to ‘STEP3. REMOVE STOPWORDS’ section). Here, we used STOPWORDS from the wordcloud package. To see the set of stopwords, use print(STOPWORDS) and to add custom stopwords to this set, use this template STOPWORDS.update(['word1', 'word2']), replacing word1 and word2 with your custom stopwords before generating a word cloud.
    
-
-
-#### for more knowledge and clarification go to the following link
-###### https://towardsdatascience.com/create-word-cloud-into-any-shape-you-want-using-python-d0b88834bc32
