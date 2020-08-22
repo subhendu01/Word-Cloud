@@ -23,16 +23,16 @@ def plot_cloud(wordcloud):
     plt.show()
 
 # Generate wordcloud
-# wordcloud = WordCloud(width = 3000, height = 2000, random_state=1, background_color='salmon',
-#                       colormap='Pastel1', collocations=False, stopwords = STOPWORDS).generate(text)
-# wordcloud.to_file("salmon_wordcloud.png")
-# plot_cloud(wordcloud)
-#
-# # Generate wordcloud
-# wordcloud = WordCloud(width = 3000, height = 2000, random_state=1, background_color='black',
-#                       colormap='Set2', collocations=False, stopwords = STOPWORDS).generate(text)
-# wordcloud.to_file("black_wordcloud.png")
-# plot_cloud(wordcloud)
+wordcloud = WordCloud(width = 3000, height = 2000, random_state=1, background_color='salmon',
+                      colormap='Pastel1', collocations=False, stopwords = STOPWORDS).generate(text)
+wordcloud.to_file("salmon_wordcloud.png")
+plot_cloud(wordcloud)
+
+# Generate wordcloud
+wordcloud = WordCloud(width = 3000, height = 2000, random_state=1, background_color='black',
+                      colormap='Set2', collocations=False, stopwords = STOPWORDS).generate(text)
+wordcloud.to_file("black_wordcloud.png")
+plot_cloud(wordcloud)
 
 # Generate wordcloud
 wordcloud = WordCloud(width = 3000, height = 2000, random_state=1, background_color='navy',
